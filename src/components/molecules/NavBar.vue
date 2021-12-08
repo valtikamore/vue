@@ -16,7 +16,7 @@
 
 <script>
 import {defineAsyncComponent} from "vue";
-const Logo = defineAsyncComponent(() => import(/*webpackChunkName:'logo'*/ '@components/atoms/Logo.vue'))
+const Logo = defineAsyncComponent(() => import(/*webpackChunkName:'logo'*/ '../atoms/Logo'))
 
 export default {
   components : {

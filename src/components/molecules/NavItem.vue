@@ -9,7 +9,7 @@
 <script>
 import {defineAsyncComponent} from "vue";
 
-const ListItem = defineAsyncComponent(() => import(/*webpackChunkName:"Listitem"*/ '@components/atoms/ListItem'))
+const ListItem = defineAsyncComponent(() => import(/*webpackChunkName:"Listitem"*/ '../atoms/ListItem'))
   export default  {
    props: {
      to: String,

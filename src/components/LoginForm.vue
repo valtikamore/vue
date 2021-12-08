@@ -26,11 +26,7 @@
 </template>
 
 <script>
-import {
-  reactive,
-  // computed,
-  // watch
-} from "vue";
+import {reactive} from "vue";
 
 export default {
   setup() {
