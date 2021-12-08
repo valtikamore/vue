@@ -9,8 +9,8 @@
     @apply mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0
 }
 .button {
-    @apply bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105
+    @apply bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform
 }
 .navbar {
-    @apply bg-gradient-to-r from-pink-400 to-purple-300 h-[150px] p-2 w-full mb-3
+    @apply bg-gradient-to-r from-pink-400 to-purple-300 h-[150px] p-2 w-full mb-3 flex flex-col md:flex-row
 }
